@@ -1,10 +1,11 @@
-# Benutze ein offizielles Python-Image als Basis
-FROM python:3.9-slim
+# Verwende ein schlankes Alpine-Image als Basis
+FROM python:3.9-alpine
 
-# Installiere die benötigten Systembibliotheken
-RUN apt-get update && apt-get install -y \
+# Installiere Systemabhängigkeiten
+RUN apk update && apk add --no-cache \
     libgl1-mesa-glx \
-    libglib2.0-0
+    libglib2.0-0 \
+    bash
 
 # Setze das Arbeitsverzeichnis
 WORKDIR /app
