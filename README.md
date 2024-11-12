@@ -8,7 +8,8 @@ The Pitch Drop Experiment, which started in 1935, is one of the longest-running 
 * [x] Involve ChatGPT writing this readme 
 * [x] Copy the existing code stuff to this repo
 * [x] Simple basic structure for this project (using chatgpt)
-    * Goal: Find an easy procedure to keep this repo as an dockerized container using portainer   
+    * Goal: Find an easy procedure to keep this repo as an dockerized container using portainer 
+    * Build takes about 5 min and the docker image is about 700mb big... seems to me a bit sus...
 * [ ] "Dockerize" this app for a simple capture test on a remote server running portainer (confirm my personal capturing issues)
 * [ ] Add local dev guide with python venv's
 * [ ] Determine the ideal frequency and storage capacity for captured images.
