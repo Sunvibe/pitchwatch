@@ -1,0 +1,9 @@
+version: "3"
+services:
+  repo-image:
+    build: https://github.com/Sunvibe/pitchwatch.git
+    image: chatgpt-demo-repo-image
+    #ports:
+    #  - "8000:8000"   # Wenn du einen Webserver im Container betreibst
+    #volumes:
+    #  - .:/app        # Optional: bindet das aktuelle Verzeichnis an das Verzeichnis im Container
