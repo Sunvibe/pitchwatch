@@ -9,7 +9,8 @@ The Pitch Drop Experiment, which started in 1935, is one of the longest-running 
 * [x] Copy the existing code stuff to this repo
 * [x] Simple basic structure for this project (using chatgpt)
     * Goal: Find an easy procedure to keep this repo as an dockerized container using portainer   
-* [ ] "Dockerize" this app for a simple capture test (confirm my personal capturing issues)
+* [ ] "Dockerize" this app for a simple capture test on a remote server running portainer (confirm my personal capturing issues)
+* [ ] Add local dev guide with python venv's
 * [ ] Determine the ideal frequency and storage capacity for captured images.
 
 ### How to Capture the Stream

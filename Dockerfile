@@ -1,6 +1,9 @@
 # Benutze ein offizielles Python-Image als Basis
 FROM python:3.9-slim
 
+# Installiere die benötigten Systembibliotheken (cv2)
+RUN apt-get update && apt-get install -y libgl1-mesa-glx
+
 # Setze das Arbeitsverzeichnis
 WORKDIR /app
 
