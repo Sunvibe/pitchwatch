@@ -14,6 +14,8 @@ The Pitch Drop Experiment, which started in 1935, is one of the longest-running 
 * [x] "Dockerize" this app for a simple capture test on a remote server running portainer (confirm my personal capturing issues)
     * Same effect on a dockerized app running on a remote server, stream has still lags and timeouts
 * [x] Build Container successfully from portainer via docker-compose.yml from this repo (copy&paste)
+* [ ] Find a smarter way to build a docker container... testing again to build vom portainer results in
+        `failed to deploy a stack: Building repo-image Service 'repo-image' failed to build : toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit : exit status 1`
 * [ ] Shrink the container size... 930mb is huge!
 * [ ] Fix project to show output on the running docker container (portainer won't show logs)
 * [ ] Add local dev guide with python venv's
