@@ -9,8 +9,13 @@ The Pitch Drop Experiment, which started in 1935, is one of the longest-running 
 * [x] Copy the existing code stuff to this repo
 * [x] Simple basic structure for this project (using chatgpt)
     * Goal: Find an easy procedure to keep this repo as an dockerized container using portainer 
-    * Build takes about 5 min and the docker image is about 700mb big... seems to me a bit sus...
-* [ ] "Dockerize" this app for a simple capture test on a remote server running portainer (confirm my personal capturing issues)
+    * Build takes about 5 min and the docker image is about 930mb big... seems to me a bit sus...
+
+* [x] "Dockerize" this app for a simple capture test on a remote server running portainer (confirm my personal capturing issues)
+    * Same effect on a dockerized app running on a remote server, stream has still lags and timeouts
+* [x] Build Container successfully from portainer via docker-compose.yml from this repo (copy&paste)
+* [ ] Shrink the container size... 930mb is huge!
+* [ ] Fix project to show output on the running docker container (portainer won't show logs)
 * [ ] Add local dev guide with python venv's
 * [ ] Determine the ideal frequency and storage capacity for captured images.
 
