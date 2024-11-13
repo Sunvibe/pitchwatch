@@ -1,5 +1,5 @@
 # Verwende ein schlankes Alpine-Image als Basis
-FROM python:3.9-alpine
+FROM python:3.13-alpine
 
 # Installiere Systemabhängigkeiten
 RUN apk update && apk add --no-cache \
